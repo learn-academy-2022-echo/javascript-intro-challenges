@@ -18,6 +18,8 @@ fourtyFiveDivided(45, 5)
 // Write the code that will log the whole number remainder of 33 divided by 6.
     console.log(33 % 6)
 // Write the code that will log the length of a string containing your name.
+    var myName = "Vanessa"
+    console.log(myName.length)
 // Write the code that will log whether your string includes the letter "e"?
 // Write the code that will log the character at the first index of the string.
 // Write the code that will log the string in all uppercase letters.
