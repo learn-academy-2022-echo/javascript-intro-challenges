@@ -7,6 +7,9 @@
     let secondNumber = 67
     console.log(firstNumber - secondNumber)
 // Write the code that will log the outcome of 56 multiplied by 23.
+    let thirdNumber = 56
+    let fourthNumber = 23
+    console.log(thirdNumber * fourthNumber)
 // Write the code that will log the outcome of 45 divided by 5.
 // Write the code that will log the outcome of 5 to the power of 7.
 // Write the code that will log the whole number remainder of 33 divided by 6.
