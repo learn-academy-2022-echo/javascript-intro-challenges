@@ -49,18 +49,52 @@ console.log(!3 === 3) // False
 console.log("LEARN".length === 5 && "Student".length === 7)
 
 //Does "LEARN".length strictly equal 5 OR "Student".length strictly equal 10?
+console.log("LEARN" === 5 || "Student".length === 7)
+true
+
 //Does "LEARN" contain the subset "RN"?
+console.log("LEARN".includes("RN"))
+true
 ///Does "LEARN" contain the subset "rn"?
+console.log("LEARN".includes("rn"))
+false
 //Does "LEARN"[0] strictly equal "l"?
+console.log("LEARN"[0] === "l")
+false
 //Modify the code from the previous question to return true.
+console.log("LEARN"[0] === "L")
 //Consider the variables:
 
-//var theQuestion = "life, the universe, and everything";
-//var theAnswer = 42;
+var theQuestion = "life, the universe, and everything";
+var theAnswer = 42;
+
 //Write the code that will log theAnswer divided by 2.
+console.log(theAnswer / 2)
+21
 //Write the code that will log the length of theQuestion.
+var theQuestion = "life, the universe, and everything".length;
+console.log(theQuestion)
+34
+
 //Write the code that will log the index of the character "f" in the theQuestion.
+var theQuestion = "life, the universe, and everything".indexOf("f")
+console.log(theQuestion)
+2
 //Write the code that will log the concatenation of the two variables.
+var myPet = 'dog';
+console.log('My favorite animal is a ' + myPet + '.');
+My favorite animal is a dog.
+
 //Write the code that will log "the universe".
+console.log("the universe")
 //Write the code that will log the character "l" from theQuestion.
+var theQuestion = "life, the universe, and everything";
+console.log(theQuestion[0])
+
 //Write the code that will log whether theQuestion.length is greater than theAnswer.
+
+var theQuestion = "life, the universe, and everything";
+var theAnswer = 42;
+console.log(theQuestion.length > theAnswer)
+
+false
