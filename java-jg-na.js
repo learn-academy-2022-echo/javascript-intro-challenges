@@ -29,3 +29,5 @@ console.log(myName.charAt(1))
 
 // Write the code that will log the string in all uppercase letters.
 console.log(myName.toUpperCase())
+
+Test
