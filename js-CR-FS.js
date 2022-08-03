@@ -75,5 +75,15 @@ if (grade === 100){
 
 
 // Write a statement that takes a variable of a boolean, number, or string data type and logs the data type of the variable. HINT: Check out the JavaScript typeof operator.
-
+var hint = 5
+console.log(typeof hint)
 // Create a password checker using a single conditional statement. If a user inputs a password with 12 or more characters AND the password includes !, then log "That is a mighty strong password!" If the user’s password is 8 or more characters OR includes !, then log "That password is strong enough." Log "That is not a valid password." for every other input.
+var password = "Car"
+
+if (password.length >= 12 && password.includes("!")){
+    console.log("that is a mighty strong password!")
+} else if (password.length >= 8 || password.includes("!")){
+    console.log("that password is strong enough")
+} else {
+    console.log("that is not valid a password")
+}
