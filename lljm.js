@@ -79,3 +79,18 @@ if(myNumber % 2){
     } else {
         console.log("0")
     }
+
+// Write a statement that takes a variable of a grade percentage and logs the letter grade for that percentage, if the grade is 100% log
+// "perfect score", if the grade is zero log "no grade available."
+
+var myGradePercentage = "0%"
+if (myGradePercentage === "100%" ) {
+  console.log("perfect score")
+ }  else if (myGradePercentage === "0%" ) {
+    console.log("no grade available")
+ }
+//  Write a statement that takes a variable of a boolean, number, or string data type and logs the data type of the variable. HINT: Check out the JavaScript typeof operator.
+
+var myTypeOf = 3
+console.log(typeof myTypeOf) 
+ 
