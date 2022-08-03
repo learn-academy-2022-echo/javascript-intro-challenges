@@ -11,7 +11,7 @@
     let fourthNumber = 23
     console.log(thirdNumber * fourthNumber)
 // Write the code that will log the outcome of 45 divided by 5.
-const fourtyFiveDivided = (firstNum, secondNum) => (console.log(firstNum / secondNum))
+const fourtyFiveDivided = (firstNum, secondNum) => console.log(firstNum / secondNum)
 fourtyFiveDivided(45, 5)
 // Write the code that will log the outcome of 5 to the power of 7.
     console.log(5 ** 7)
@@ -37,10 +37,15 @@ fourtyFiveDivided(45, 5)
 // Does !3 strictly equal 3?
     console.log(!3 === 3)
 // Does "LEARN".length strictly equal 5 AND "Student".length strictly equal 7?
+    console.log("LEARN".length === 5 && "Student".length === 7)
 // Does "LEARN".length strictly equal 5 OR "Student".length strictly equal 10?
+    console.log("LEARN".length === 5 || "Student".length === 10)
 // Does "LEARN" contain the subset "RN"?
+    console.log("LEARN".includes("RN"))
 // Does "LEARN" contain the subset "rn"?
+    console.log("LEARN".includes("rn"))
 // Does "LEARN"[0] strictly equal "l"?
+    console.log("LEARN"[0] === "l")
 // Modify the code from the previous question to return true.
 // Consider the variables:
 
