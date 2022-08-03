@@ -29,7 +29,12 @@ console.log(!3 === 3);
 // Does "LEARN".length strictly equal 5 AND "Student".length strictly equal 7?
 console.log("LEARN".length === 5 && "Student".length === 7);
 // Does "LEARN".length strictly equal 5 OR "Student".length strictly equal 10?
+console.log("LEARN".length === 5 || "Student".length === 10);
 // Does "LEARN" contain the subset "RN"?
+console.log("LEARN".includes("RN"));
 // Does "LEARN" contain the subset "rn"?
+console.log("LEARN".includes("rn"));
 // Does "LEARN"[0] strictly equal "l"?
+console.log("LEARN"[0] === "l");
 // Modify the code from the previous question to return true.
+console.log("LEARN"[0] === "L")
