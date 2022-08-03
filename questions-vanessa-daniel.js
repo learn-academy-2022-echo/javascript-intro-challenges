@@ -45,16 +45,24 @@ fourtyFiveDivided(45, 5)
 // Does "LEARN" contain the subset "rn"?
     console.log("LEARN".includes("rn"))
 // Does "LEARN"[0] strictly equal "l"?
-    console.log("LEARN"[0] === "l")
+    console.log("LEARN"[0] === "L")
 // Modify the code from the previous question to return true.
 // Consider the variables:
 
-// var theQuestion = "life, the universe, and everything";
-// var theAnswer = 42;
+var theQuestion = "life, the universe, and everything";
+var theAnswer = 42;
 // Write the code that will log theAnswer divided by 2.
+    console.log(theAnswer / 2)
 // Write the code that will log the length of theQuestion.
+    console.log(theQuestion.length)
 // Write the code that will log the index of the character "f" in the theQuestion.
+    console.log(theQuestion.indexOf("f"))
 // Write the code that will log the concatenation of the two variables.
+    console.log(theAnswer + theQuestion)
 // Write the code that will log "the universe".
+    console.log(theQuestion.slice(6, 18))
 // Write the code that will log the character "l" from theQuestion.
+    const letterElPos = theQuestion.indexOf("l")
+    console.log(theQuestion.charAt(letterElPos))
 // Write the code that will log whether theQuestion.length is greater than theAnswer.
+    console.log(theQuestion.length > theAnswer.length)
