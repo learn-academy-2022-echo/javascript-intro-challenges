@@ -35,7 +35,7 @@ if(number1 < number2){
     console.log("you broke it");
 }
 // Write a statement that takes a variable of a number and logs whether the number is odd, even, or zero.
-var number = 2
+var number = 12
 
 if (number === 0){
     console.log("zero");
@@ -43,4 +43,6 @@ if (number === 0){
     console.log("odd");
 }else if (number % 2 === 0){
     console.log("even");
+} else {
+    console.log("stop breaking things");
 }
