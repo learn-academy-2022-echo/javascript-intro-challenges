@@ -21,6 +21,8 @@ fourtyFiveDivided(45, 5)
     var myName = "Vanessa"
     console.log(myName.length)
 // Write the code that will log whether your string includes the letter "e"?
+    console.log(myName.includes("e"))
+    // console.log("Jordan".includes("e"))
 // Write the code that will log the character at the first index of the string.
 // Write the code that will log the string in all uppercase letters.
 // Write the code that will log true or false for the following:
