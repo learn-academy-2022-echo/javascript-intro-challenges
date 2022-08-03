@@ -11,6 +11,8 @@
     let fourthNumber = 23
     console.log(thirdNumber * fourthNumber)
 // Write the code that will log the outcome of 45 divided by 5.
+const fourtyFiveDivided = (firstNum, secondNum) => (console.log(firstNum / secondNum))
+fourtyFiveDivided(45, 5)
 // Write the code that will log the outcome of 5 to the power of 7.
 // Write the code that will log the whole number remainder of 33 divided by 6.
 // Write the code that will log the length of a string containing your name.
