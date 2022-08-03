@@ -3,6 +3,9 @@
 // Write the code that will log the outcome of 34 added to 71.
     console.log(34 + 71)
 // Write the code that will log the outcome of 67 subtracted from 123.
+    let firstNumber = 123
+    let secondNumber = 67
+    console.log(firstNumber - secondNumber)
 // Write the code that will log the outcome of 56 multiplied by 23.
 // Write the code that will log the outcome of 45 divided by 5.
 // Write the code that will log the outcome of 5 to the power of 7.
