@@ -18,8 +18,8 @@
 // }
 // Consider this variable:
 
- const nums = [3, 57, -9, 20, 67];
-// // Create the code that will log the largest number from the array.
+//  const nums = [3, 57, -9, 20, 67];
+// // // Create the code that will log the largest number from the array.
    
 
 // console.log(Math.max(...nums))
@@ -29,7 +29,24 @@
 // // Create the code that will log the remainder of each number when divided by 2.
 //const nums = [3, 57, -9, 20, 67];
 
-for(let i = 0; i < nums.length; i++){
-    console.log(nums[i] % 2);
-}
-// Expected output: 1, 1, -1, 0, 1
+// for(let i = 0; i < nums.length; i++){
+//     console.log(nums[i] % 2);
+// }
+// // Expected output: 1, 1, -1, 0, 1
+
+// const myString = "learn student";
+// let count = 0
+
+// // Create the code that will log the number of times the letter "e" occurs in the string.
+// // for every time there is an e, add total number e's
+
+// // for(let i = 0;i < myString.length; i++){
+// //     if(myString.charAt(i) === "e"){
+// //        count++ 
+// //     } 
+// // }console.log(count)
+
+// // Create the code that will log every other character in the string.
+// for(let i = 0;i < myString.length; i += 2){
+//     console.log(myString[i])
+// }
