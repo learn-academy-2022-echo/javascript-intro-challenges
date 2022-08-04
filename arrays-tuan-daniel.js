@@ -70,3 +70,15 @@ var characters = ["y", "a", "r", "r", "a"];
     let bothArr = firstArr.concat(secondArr).sort();
     console.log(bothArr)
     
+// Consider the variables:
+
+var numbers = [42, 221, 71, 7, 18, 87];
+var oddIndexes = [];
+// Write the code that logs the values from the numbers array that are at odd indexes.
+    for (let i = 0; i < numbers.length; i++) {
+        if (i % 2 !== 0) {
+            oddIndexes.push(numbers[i])
+        }
+    }
+    console.log(oddIndexes)
+// Write the code that adds the values from odd indexes into the oddIndexes array.
