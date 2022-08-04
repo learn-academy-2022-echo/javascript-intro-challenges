@@ -40,35 +40,47 @@
 
 // Consider the variable:
 
-var numSet = [2, 13, 6, 8, 4, 2];
-// Write the code that finds the index of the first appearance of the number 2.
-console.log(numSet.indexOf(2))
+// var numSet = [2, 13, 6, 8, 4, 2];
+// // Write the code that finds the index of the first appearance of the number 2.
+// console.log(numSet.indexOf(2))
 
 
-// Write the code that finds the index of the last appearance of the number 2.
-console.log(numSet.lastIndexOf(2))
+// // Write the code that finds the index of the last appearance of the number 2.
+// console.log(numSet.lastIndexOf(2))
 
-// Write the code that returns the number at the third index.
-console.log(numSet.slice(3,4))
+// // Write the code that returns the number at the third index.
+// console.log(numSet.slice(3,4))
 
 // Consider the variable:
 
 // var characters = ["y", "a", "r", "r", "a"];
-// Write the code that brings all the letters in the characters array together into a string.
+// // Write the code that brings all the letters in the characters array together into a string.
+// console.log(characters.join(""))
 
-// Write the code that reverses the order of the letters in the characters array and saves it into a variable called charsReversed.
+// // Write the code that reverses the order of the letters in the characters array and saves it into a variable called charsReversed.
+// var charsReversed = characters.reverse()
+// console.log(charsReversed.join())
 
-// Write the code that brings all the letters in the charsReversed array together into a string with an asterisk between each letter.
+// // Write the code that brings all the letters in the charsReversed array together into a string with an asterisk between each letter.
+// console.log(charsReversed.join("*"))
 
-// Write the code that brings all the letters in the charsReversed array together into a string without separators.
+// // Write the code that brings all the letters in the charsReversed array together into a string without separators.
+// console.log(charsReversed.join(""))
 
 // Create two arrays consisting of three first names of your cohort members in each.
+var echoStudent = ["Joyce", "Cathrine", "Chris"]
+var echoStudent2 = ["Jason", "Joseph", "Daniel"]
 
 // Write the code that sorts the names in alphabetical order.
+console.log(echoStudent.sort())
+console.log(echoStudent2.sort())
 
 // Write the code that sorts the names in reverse alphabetical order.
+console.log(echoStudent.reverse())
+console.log(echoStudent2.reverse())
 
 // Write the code that sorts all the names in alphabetical order in a single array.
+console.log(echoStudent.concat(echoStudent2))
 
 // Consider the variables:
 
