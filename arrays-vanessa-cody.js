@@ -48,6 +48,25 @@ var numbers = [2, 4, 6, 8, 10];
 // Write the code that returns the number at the third index.
     console.log(numSet.slice(3,4));
 
+// Consider the variable:
 
+ var characters = ["y", "a", "r", "r", "a"];
+// Write the code that brings all the letters in the characters array together into a string.
+    console.log(characters.join());
+// Write the code that reverses the order of the letters in the characters array and saves it into a variable called charsReversed.
+    var charsReversed = (characters.reverse());
+    console.log(charsReversed);
+// Write the code that brings all the letters in the charsReversed array together into a string with an asterisk between each letter.
+    var charJoin = charsReversed.join("*");
+    console.log(charJoin)
+// Write the code that brings all the letters in the charsReversed array together into a string without separators.
+
+// Create two arrays consisting of three first names of your cohort members in each.
+
+// Write the code that sorts the names in alphabetical order.
+
+// Write the code that sorts the names in reverse alphabetical order.
+
+// Write the code that sorts all the names in alphabetical order in a single array.
     
 
