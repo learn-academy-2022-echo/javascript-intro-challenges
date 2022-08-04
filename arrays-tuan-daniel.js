@@ -75,10 +75,16 @@ var characters = ["y", "a", "r", "r", "a"];
 var numbers = [42, 221, 71, 7, 18, 87];
 var oddIndexes = [];
 // Write the code that logs the values from the numbers array that are at odd indexes.
-    for (let i = 0; i < numbers.length; i++) {
-        if (i % 2 !== 0) {
-            oddIndexes.push(numbers[i])
-        }
-    }
-    console.log(oddIndexes)
+
+    // for (let i = 0; i < numbers.length; i++) {
+    //     if (i % 2 !== 0) {
+    //         oddIndexes.push(numbers[i])
+    //     }
+    // }
+    // console.log(oddIndexes)
+
+    let filteredNums = numbers.filter((num, i) => i % 2 !== 0)
+    console.log(filteredNums)
 // Write the code that adds the values from odd indexes into the oddIndexes array.
+    oddIndexes = numbers.filter((num, i) => i % 2 !== 0)
+    console.log(oddIndexes)
