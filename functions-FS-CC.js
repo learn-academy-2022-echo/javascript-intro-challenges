@@ -39,7 +39,6 @@
 // } 
 // console.log(multiply(6, 7))
  
-
 // Write a function named divisibleBy that takes two numbers as arguments and returns whether the first number is evenly divisible by the second so that divisibleBy(10, 5) logs "10 is evenly divisible by 5".
 
 
