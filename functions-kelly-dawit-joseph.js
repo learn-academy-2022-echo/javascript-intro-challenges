@@ -1,35 +1,63 @@
 // Write a function named marco that returns "polo".
     // create a function named marco
     // return "polo"
-    const marco = () => {
-        return "polo"
-    }
-    console.log(marco());
+    //const marco = () => {
+      //  return "polo"
+    //}
+    //console.log(marco());
 // Write a function named greeting that takes a name as an argument and returns "Welcome, <person's name here>!"
     // create a function named greeting
     // have an argument called name
     // return a message with the person's name
-    const greeting = (name) => {
-        return `Welcome, ${name}!`
-    }
-    console.log(greeting("Kelly"));
+    // const greeting = (name) => {
+    //     return `Welcome, ${name}!`
+    // }
+    // console.log(greeting("Kelly"));
 // Write a function named oddOrEven that takes a number as an argument and returns whether the number is odd or even.
     // create a function named oddOrEven
     // argument is called number
     // make an if/else statement that determins if ther number is odd or even
-    const oddOrEven = (number) => {
-        if (number % 2 !== 0) {
-            return `The result: ${number} is odd`
-        } else if (number % 2 !== 1) {
-            return `The result: ${number} is even`
-        }
-    }
-    console.log(oddOrEven(355));
+    // const oddOrEven = (number) => {
+    //     if (number % 2 !== 0) {
+    //         return `The result: ${number} is odd`
+    //     } else if (number % 2 !== 1) {
+    //         return `The result: ${number} is even`
+    //     }
+    // }
+    // console.log(oddOrEven(355));
 // Write a function named triple that takes a number as an argument and returns the result of that number multiplied by 3.
+    //create a function named triple
+    //arguement is called number
+    //return result is the number multiplied by 3
+
+    const triple = (number) => {
+        return number * 3
+    }
+    console.log(triple())
 
 // Write a function named multiply that takes two numbers as arguments and returns the result of the numbers multiplied together.
+    //create a function named multiply
+    //argument will have two parameters
+    //returns a result of the two parameters multiplied together
 
+    const multiply =(number1, number2) => {
+        return number1 * number2
+    }
+    console.log(multiply())
 // Write a function named divisibleBy that takes two numbers as arguments and returns whether the first number is evenly divisible by the second so that divisibleBy(10, 5) logs "10 is evenly divisible by 5".
+    //create a function named divisibleBy
+    //argument will have two parameters
+    //will have an if statement
+    //returns if the first parameter is evenly divisible by the second parameter
+
+    const divisibleBy = (number1, number2) => {
+        if(number1 % number2 === 0) {
+            return `${number1} is evenly divisible by ${number2}`
+        } else if(number1 % number2 !== 0){
+            return`${number1} is not evenly divisible by ${number2}`
+        }
+    }
+    console.log(divisibleBy(10,3))
 
 // Write a function named assignGrade that takes a number score as an argument and returns the letter grade for the score.
 
