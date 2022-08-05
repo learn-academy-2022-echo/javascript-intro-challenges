@@ -113,16 +113,16 @@ var it = "Ciao Mondo!"
 
 var language = [es, en, fr, de, it]
 
-// const helloWorld = (lang) => { // creates var lang
-//     for (let i = 0; i < language.length; i++) { // creates iteration counter, if i is less than 5, add 1 to i, and loop until false
-//         if (lang === language[i]) { // if lang is strictly equal element in language array
-//             return console.log(language[i]) // log the element and exit the function THIS IS THE PROBLEM LINE (Possibly a quirk of language from console loging loops)
-//          } else { // if line 119 is false, do this
-//             return "Not recognized, please choose es, en, fr, de, or it" // return edge case
-//          }
-//     }
-// }
-// console.log(helloWorld(es))
+const helloWorld = (lang) => { // creates var lang
+    for (let i = 0; i < language.length; i++) { // creates iteration counter, if i is less than 5, add 1 to i, and loop until false
+        if (lang === language[i]) { // if lang is strictly equal element in language array
+            return language[i] // log the element and exit the function THIS IS THE PROBLEM LINE (Possibly a quirk of language from console logging loops)
+         } else { // if line 119 is false, do this
+            return "Not recognized, please choose es, en, fr, de, or it" // return edge case
+         }
+    }
+}
+console.log(helloWorld(es))
 
     // const helloWorld = (lang) => {
 
