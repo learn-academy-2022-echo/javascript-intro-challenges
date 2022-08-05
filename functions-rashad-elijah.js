@@ -1,6 +1,6 @@
 //1. write a function named marco that returns "polo"
 
-var marco = () => {
+const marco = () => {
     return "polo";
 };
 
@@ -8,7 +8,7 @@ console.log(marco());
 
 //2. write a function named greeting that takes a name as an argument and returns a welcome, (person's name here)
 
-var greeting = (name) => {
+const greeting = (name) => {
     return `welcome ${name}!`
 }
 
@@ -16,7 +16,7 @@ console.log(greeting("Austin"))
 
 //3. write a function named odd or even, that takes a number as an argument and returns whether the number is odd or even
 
-var oddOrEven = (number) => {
+const oddOrEven = (number) => {
     if (oddOrEven %2 !==0){
         return "Odd"
     }else{
@@ -28,7 +28,7 @@ console.log(oddOrEven(3))
 
 //4. write a function named tripple that takes a number as an argument and returns the result of that number multiplied by 3
 
-var tripple = (number) => {
+const tripple = (number) => {
     return (number * 3)
 }
 
@@ -37,7 +37,7 @@ console.log(tripple(3))
 
 //5. write a function named multiplier that takes two numbers as arguments and returns the result of the numbers multiplied together
 
-var multiply = (numberOne, numberTwo) => {
+const multiply = (numberOne, numberTwo) => {
     return (numberOne * numberTwo)
 }
 
@@ -45,7 +45,7 @@ console.log(multiply(2, 4))
 
 //6. write a function named divisibleBy that takes two numbers as arguments and returns whether the first number is evenly divisible by the second so that divisbleBy (10,5) logs "10 is evenly divisble by 5"
 
-var divisibleBy = (numberOne, numberTwo) => {
+const divisibleBy = (numberOne, numberTwo) => {
     if (numberOne % numberTwo !==3){
         return ("10 is easily divisible by 5")
     }
