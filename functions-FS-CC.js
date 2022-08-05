@@ -40,9 +40,28 @@
 // console.log(multiply(6, 7))
  
 // Write a function named divisibleBy that takes two numbers as arguments and returns whether the first number is evenly divisible by the second so that divisibleBy(10, 5) logs "10 is evenly divisible by 5".
-
+const divisibleBy = (firstNum, secondNum) => {
+    if(firstNum % secondNum === 0) {
+        return `${firstNum} is evenly divisible by ${secondNum}`
+    }else
+        return "Has a remainder"
+}
+console.log(divisibleBy(10, 5))
+console.log(divisibleBy(12, 5))
 
 // Write a function named assignGrade that takes a number score as an argument and returns the letter grade for the score.
+const assignGrade = (numberScore) => {
+    if(numberScore === 100){
+        return "A"
+    }else if(numberScore >= 80){
+        return "B"
+    }else if(numberScore <= 80){
+        return "C"
+    }  
+}
+console.log(assignGrade(100))
+console.log(assignGrade(90))
+console.log(assignGrade(70))
 
 // Write a function named isLonger that takes two strings as arguments and returns the string that contains the most characters.
 
