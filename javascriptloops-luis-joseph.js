@@ -51,8 +51,22 @@ const nums = [3, 57, -9, 20, 67];
 
 const myString = "learn student";
 //Create the code that will log the number of times the letter "e" occurs in the string.
-// for (let i = 0; i < myString.length ; i++)
-console.log(myString.split("e").length - 1)
+var newString = 0
+for (let i = 0; i < myString.length ; i++) {
+
+  // console.log(myString[i].includes("e")- 1) Another way to solve
+
+  if(myString[i].includes("e")) {
+    console.log(myString[i])
+  newString = newString+1
+  
+  } 
+
+} 
+ console.log(newString)
+
+
+// console.log(myString.split("e").length - 1)
 
 //Create the code that will log every other character in the string.
 
