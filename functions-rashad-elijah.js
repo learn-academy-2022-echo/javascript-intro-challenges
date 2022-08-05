@@ -121,7 +121,7 @@ var helloWorld = (language) => {
     }
 }
 
-console.log (helloWorld("es"))
+console.log (helloWorld("es"));
 
 
 
