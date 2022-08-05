@@ -30,36 +30,41 @@
     //arguement is called number
     //return result is the number multiplied by 3
 
-    const triple = (number) => {
-        return number * 3
-    }
-    console.log(triple())
+    // const triple = (number) => {
+    //     return number * 3
+    // }
+    // console.log(triple())
 
 // Write a function named multiply that takes two numbers as arguments and returns the result of the numbers multiplied together.
     //create a function named multiply
     //argument will have two parameters
     //returns a result of the two parameters multiplied together
 
-    const multiply =(number1, number2) => {
-        return number1 * number2
-    }
-    console.log(multiply())
+    // const multiply =(number1, number2) => {
+    //     return number1 * number2
+    //}
+    //console.log(multiply())
 // Write a function named divisibleBy that takes two numbers as arguments and returns whether the first number is evenly divisible by the second so that divisibleBy(10, 5) logs "10 is evenly divisible by 5".
     //create a function named divisibleBy
     //argument will have two parameters
     //will have an if statement
     //returns if the first parameter is evenly divisible by the second parameter
 
-    const divisibleBy = (number1, number2) => {
-        if(number1 % number2 === 0) {
-            return `${number1} is evenly divisible by ${number2}`
-        } else if(number1 % number2 !== 0){
-            return`${number1} is not evenly divisible by ${number2}`
-        }
-    }
-    console.log(divisibleBy(10,3))
+    //
 
 // Write a function named assignGrade that takes a number score as an argument and returns the letter grade for the score.
+// create function named assignGrade
+// argument is number score
+// return a letter grade "A" for 90 -100... 
+// if statement for each letter grade starting at A ending at F.
+
+const assignGrade = (numberGrade) => {
+    if(numberGrade >= 90) {
+        return 'A'
+
+    }
+}
+console.log(assignGrade(100)) 
 
 // Write a function named isLonger that takes two strings as arguments and returns the string that contains the most characters.
 
