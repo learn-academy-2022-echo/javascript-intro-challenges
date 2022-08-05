@@ -103,7 +103,7 @@ var yelling = (string) => {
 
 }
 
-console.log (yelling("boom"))
+console.log (yelling("boom"));
 
 //11. The world translater. 
 // (A) write a function named helloWorld that takes a language code (e.g "es", "de", "en") as an argument and returns "Hello World!" in the given language.
