@@ -37,7 +37,7 @@ console.log(oddOrEven(3))
 // function name:triple
 // parameter: number
 // output: *3
-// conditional statement 
+// return: the number multiplied by 3
 
 const triple = (number) => {
     return number *3 
@@ -48,9 +48,40 @@ console.log(triple(10))
 
 // Write a function named multiply that takes two numbers as arguments and returns the result of the numbers multiplied together.
 
+//function name: multiply
+// parameter: numberOne, numberTwo
+// output: numberOne * number Two
+// return: the two number * together
+
+const multiply = (numberOne, numberTwo) => {
+    return numberOne * numberTwo
+}
+ console.log(multiply(5,4))
+
 // Write a function named divisibleBy that takes two numbers as arguments and returns whether the first number is evenly divisible by the second so that divisibleBy(10, 5) logs "10 is evenly divisible by 5".
 
+//function name: divisibleBy 
+// parameter: numberOne, numberTwo
+// output: numberOne is evenely / by number Two
+// conditional statment: 
+
+const divisibleBy = (numberOne, numberTwo) => {
+    if(numberOne / numberTwo === 1){
+        return `${numberOne} is evenly divisible by ${numberTwo}`
+    } else if(numberOne / numberTwo != 1) {
+        return `${numberOne} is not evenly divisible by ${numberTwo}`
+    }
+}
+ console.log(divisibleBy(20,17))
+
 // Write a function named assignGrade that takes a number score as an argument and returns the letter grade for the score.
+
+
+//function name: assignGrade 
+// parameter: numberScore
+// output: 
+// conditional statment: 
+
 
 // Write a function named isLonger that takes two strings as arguments and returns the string that contains the most characters.
 
