@@ -74,14 +74,74 @@ console.log(multiply(1, 2))
 console.log(multiply(2, 3))
 
 // Write a function named divisibleBy that takes two numbers as arguments and returns whether the first number is evenly divisible by the second so that divisibleBy(10, 5) logs "10 is evenly divisible by 5".
+// make a function named divisibleBy
+// take two numbers as arguments
+// returns if first number is evenly divisible by second
 
+const divisibleBy = (num1, num2) => {
+    if(num1 % num2 === 0) {
+        return `${num1} is evenly divisible by ${num2}` 
+    }
+}
+console.log(divisibleBy(10, 5))
 // Write a function named assignGrade that takes a number score as an argument and returns the letter grade for the score.
+
+// create function named assignGrade 
+// take number as argument
+//if else blocks for number to letter assignment
+// returns letter grade as string
+
+const assignGrade = (num) => {
+    if (num > 89) {
+        return `${num} is a A` 
+    } else if (num > 79) {
+        return `${num} is a B`
+    } else if (num > 69) {
+        return `${num} is a C`
+    } else if (num > 59) {
+        return `${num} is a D`
+    } else {
+        return `${num} is an F`
+    }
+}
+console.log(assignGrade(54))
 
 // Write a function named isLonger that takes two strings as arguments and returns the string that contains the most characters.
 
-// Write a function named greaterNum that takes two numbers as arguments and returns whichever number is the greater (higher) number.
+// create function named isLonger
+// take two strings as arguments
+// return lognest string
 
+const isLonger = (string1, string2) => {
+    if (string1.length > string2.length) {
+        return `${string1} has more letters`
+    } else {
+        return `${string2} has more letters`
+    }
+}
+console.log(isLonger("bruh", "the"))
+
+// Write a function named greaterNum that takes two numbers as arguments and returns whichever number is the greater (higher) number.
+//write function named greater num
+// take two numbers as arguemnts
+//return whichever is greater
+
+const greaterNum = (num1, num2) => {
+    if(num1 > num2) {
+        return `${num1} is the greater number!` 
+    } else {
+        return `${num2} is the greater number!`
+    }
+}
+console.log(greaterNum(1, 2))
 // Write a function named yelling that takes a string as an argument and return the string in all uppercase case letters.
+//write function named yelling
+//take string as argument
+//return string in uppercase
+
+const yelling = (string) => string.toUpperCase()
+
+console.log(yelling("bruh"))
 
 // STRETCH Challenges
 // The World Translator
