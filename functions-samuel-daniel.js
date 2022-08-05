@@ -147,9 +147,63 @@ console.log(yelling("bruh"))
 // The World Translator
 // (a) Write a function named helloWorld that takes a language code (e.g. "es", "de", "en") as an argument and returns "Hello World!" in the given language. Ensure you function works for at least 5 languages.
 // (b) Have your function default to returning English.
+/*
+1.  Create a function named helloWorld
+2.  takes language code string as argument
+3.  return "Hello World" in respective language argument
+4. else if blank, return hello world in english
+*/
+
+const helloWorld = (lang) => {
+    if (lang === "de") {
+        return "Hallo Welt"
+    } else if (lang === "es") {
+        return "Hola Mundo"
+    } else if (lang === "ar") {
+        return "مرحبا بالعالم"
+    } else if (lang === "ko") {
+        return "안녕하세요 세계"
+    } else {
+        return "Hello World"
+    }
+}
+
+console.log(helloWorld("de"))
+console.log(helloWorld("es"))
+console.log(helloWorld("ar"))
+console.log(helloWorld("ko"))
+console.log(helloWorld())
+
 
 // The Pluralizer
 // (a) Write a function named pluralizer that takes a number and a singular noun as arguments and returns the number and pluralized form of the noun, if necessary.
+/*
+1.  Create function named pluralizer
+2.  Take number and singular noun as arguments
+3.  Return the number and noun
+    4. if number is > 1 return pluralized form of noun
+*/
+
+const pluralizer = (num, utensil) => {
+    if (num === 1 && utensil[utensil.length - 1] === "s" && utensil !== "tongs") {
+        return `${num} ${utensil.slice(0, -1)}`
+    } else if (num > 1 && utensil === "knife") {
+        return `${num} knives`
+    } else if (num > 1 && utensil === "tongs") {
+        return `${num} ${utensil}`
+    } else if (num === 1) {
+        return `${num} ${utensil}`
+    } else {
+        return `${num} ${utensil}s`
+    }
+}
+
+console.log(pluralizer(2, "spoon"))
+console.log(pluralizer(1, "forks"))
+console.log(pluralizer(3, "knife"))
+console.log(pluralizer(4, "spatula"))
+console.log(pluralizer(1, "tongs"))
+
 
 // pluralizer(5, "cat");
 // // expected output: "5 cats"
