@@ -42,10 +42,10 @@
 
 //create a function named multiply, takes 2 numbers as arguments and outputs them multiplied togehter
 
-const multiply = (num1, num2) =>{
-    return (num1 * num2)
-}
-console.log(multiply(5, 8));
+// const multiply = (num1, num2) =>{
+//     return (num1 * num2)
+// }
+// console.log(multiply(5, 8));
 // Write a function named divisibleBy that takes two numbers as arguments and returns whether the first number is evenly divisible by the second so that divisibleBy(10, 5) logs "10 is evenly divisible by 5".
 
 // Write a function named assignGrade that takes a number score as an argument and returns the letter grade for the score.
