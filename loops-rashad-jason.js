@@ -66,6 +66,20 @@ for(let i = 0; i < nums.length; i++){
 
 const myString = "learn student";
 
+function howMuch(str) {
+    let count = 0;
+    
+    for (var letter of str.toLowerCase()){
+        if(myString.includes(e)){
+            count++;
+        }
+    }
+    return count
+}
+
+const result = countLetter(string);
+
+console.log(result)
       
 
 
