@@ -100,6 +100,64 @@
 // The World Translator
 // (a) Write a function named helloWorld that takes a language code (e.g. "es", "de", "en") as an argument and returns "Hello World!" in the given language. Ensure you function works for at least 5 languages.
 
+// function named helloWorld
+// 5 variables of languages
+// returns string "Hello world!" in a given languages
+//     when you pass the language var into the function, returns hello world in that language
+
+var es = "Hola el Mundo"
+var en = "Hello World!"
+var fr = "Bonjour le Monde!"
+var de = "Hallo Welt!"
+var it = "Ciao Mondo!"
+
+var language = [es, en, fr, de, it]
+
+// const helloWorld = (lang) => { // creates var lang
+//     for (let i = 0; i < language.length; i++) { // creates iteration counter, if i is less than 5, add 1 to i, and loop until false
+//         if (lang === language[i]) { // if lang is strictly equal element in language array
+//             return console.log(language[i]) // log the element and exit the function THIS IS THE PROBLEM LINE (Possibly a quirk of language from console loging loops)
+//          } else { // if line 119 is false, do this
+//             return "Not recognized, please choose es, en, fr, de, or it" // return edge case
+//          }
+//     }
+// }
+// console.log(helloWorld(es))
+
+    // const helloWorld = (lang) => {
+
+    //     let i = 0
+    //     while(lang === language[i]) {
+    //         console.log(language[i])
+    //         break;
+    //     }
+    //     return language[i]
+    // }
+
+    // console.log(helloWorld())
+
+// const helloWorld = (lang) => {
+//     if (lang === es) {
+//         return es
+//     } else if (lang === en) {
+//         return en
+//     } else if (lang === fr) {
+//         return fr
+//     } else if (lang === de) {
+//         return de
+//     } else if (lang === it) {
+//         return it
+//     } else {
+//         return "Not recognized, please choose es, en, fr, de, or it"
+//     }
+// }
+// console.log(helloWorld(fr))
+
+
+
+
+
+
 // (b) Have your function default to returning English.
 
 // The Pluralizer
