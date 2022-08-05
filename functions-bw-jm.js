@@ -85,6 +85,10 @@ const divisibleBy = (numberOne, numberTwo) => {
 
 // Write a function named isLonger that takes two strings as arguments and returns the string that contains the most characters.
 
+// function expression name: isLonger
+// parameter: myDog, myPuppy
+// return: the string with the most characters in string 
+
 // Write a function named greaterNum that takes two numbers as arguments and returns whichever number is the greater (higher) number.
 
 // Write a function named yelling that takes a string as an argument and return the string in all uppercase case letters.
