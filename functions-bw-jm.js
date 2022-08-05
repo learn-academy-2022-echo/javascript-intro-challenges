@@ -50,9 +50,15 @@ console.log(triple(10))
 
 // Write a function named divisibleBy that takes two numbers as arguments and returns whether the first number is evenly divisible by the second so that divisibleBy(10, 5) logs "10 is evenly divisible by 5".
 
+
+
 // Write a function named assignGrade that takes a number score as an argument and returns the letter grade for the score.
 
 // Write a function named isLonger that takes two strings as arguments and returns the string that contains the most characters.
+
+// function expression name: isLonger
+// parameter: myDog, myPuppy
+// return: the string with the most characters in string 
 
 // Write a function named greaterNum that takes two numbers as arguments and returns whichever number is the greater (higher) number.
 
