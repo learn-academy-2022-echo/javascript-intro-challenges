@@ -103,3 +103,14 @@ for(var i = 0; i < numbers.length; i++) {
 }  
 console.log(oddIndexes)
 
+for (let i = 10; i > 0; i--) {
+    console.log(i);
+  }
+
+  var arr = [5, 3, 5, 2, 5, 7];
+
+for (let i = 0; i < arr.length; i++) {
+  if (arr[i] !== 5) {
+    console.log(arr[i]);
+  }
+}
